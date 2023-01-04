@@ -1,5 +1,5 @@
 # Juego de Simon Dice
 
-##Instalacion
+## Instalacion
 
 Correr **npm install**
