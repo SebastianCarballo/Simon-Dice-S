@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Dice S</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <h1>SIMON DICE</h1>
+        </div>
+
+        <div id="instrucciones" class="container">
+            <h3>Instrucciones</h3>
+            <p>Memoriza la secuencia de colores, cada vez que repitas una secuencia correctamente, se repetirá, añadiéndose otro color.</p>
+        </div>
+
+
+        <div class="container" id="tablero">
+            <div class="row">
+                <div class="col-sm">
+                    <div id="cuadro-1" class="cuadro"><i class="bi bi-arrow-down-right-square"></i>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div id="cuadro-2" class="cuadro"><i class="bi bi-arrow-down-left-square"></i></div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div id="cuadro-3" class="cuadro"><i class="bi bi-arrow-up-right-square"></i></div>
+                </div>
+                <div class="col-sm">
+                    <div id="cuadro-4" class="cuadro"><i class="bi bi-arrow-up-left-square"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="button">
+            <button class="btn btn-info" id="empezar-juego">Empezar Juego</button>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
